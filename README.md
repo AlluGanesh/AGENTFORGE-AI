@@ -9,6 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.0_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![Author](https://img.shields.io/badge/Author-Ganesh-blue.svg?style=for-the-badge)](#-author)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 <br/>
@@ -16,6 +17,10 @@
 **AgentForge Logistics** is a production-grade Agentic AI supply chain control tower and disruption recovery platform. Coordinated by **9 specialized AI agents**, the system continuously monitors freight telemetry, proactively detects route bottlenecks, checks regional warehouse inventory buffers, calculates deterministic detour and toll costs, and synthesizes prioritized recovery strategies under strict **Human-in-the-Loop** governance.
 
 [Key Features](#-key-features) • [Multi-Agent Architecture](#-multi-agent-system-architecture) • [Dashboard Views](#-the-6-control-tower-views) • [Quickstart](#-quickstart-guide) • [API Reference](#-api-endpoints)
+
+<br/><br/>
+
+[![Multi-Agent Workflow Execution Engine](docs/images/multi_agent_workflow.png)](#3--multi-agent-workflow-execution-graph)
 
 </div>
 
@@ -125,6 +130,10 @@ Interactive dark-mode Leaflet map tracking vehicles along the Chennai–Bengalur
 ### 3. 🧠 Multi-Agent Workflow Execution Graph
 Visual node graph illustrating all 9 agents in real time, complete with latency badges, tool execution logs, prompt reasoning summaries, and architectural rule compliance indicators.
 
+<div align="center">
+  <img src="docs/images/multi_agent_workflow.png" alt="Multi-Agent Workflow Execution Graph" width="95%" style="border-radius: 8px; border: 1px solid #1e293b; margin: 12px 0;" />
+</div>
+
 ### 4. 🛡️ Human-in-the-Loop Recovery Center
 Direct incident review comparing 4 operational recovery options:
 - **Option 1**: *Alternate Carrier Reassignment* (+₹2,400 | ETA 5:45 PM | **On-Time SLA** | **AI Recommended**)
@@ -132,6 +141,10 @@ Direct incident review comparing 4 operational recovery options:
 - **Option 3**: *Emergency Fulfillment from Hosur Hub* (+₹3,200 | ETA 5:30 PM | On-Time SLA)
 - **Option 4**: *Continue on Current Route* (₹0 | ETA 8:00 PM | ₹75,000 SLA Penalty Exposure)
 Includes an operational approval form with reviewer signatures, confetti confirmation, and ledger block commitment.
+
+<div align="center">
+  <img src="docs/images/recovery_center.png" alt="Human-in-the-Loop Evaluated Recovery Strategies" width="95%" style="border-radius: 8px; border: 1px solid #1e293b; margin: 12px 0;" />
+</div>
 
 ### 5. 📦 Warehouses & Stock Network
 Regional hub breakdown (Chennai Central, Vellore Distribution Node, Hosur Fulfillment Center, Bengaluru East Hub) with pallet capacity meters, SKU reserve balances, and safety threshold alerts.
@@ -150,8 +163,8 @@ Target vs actual PRD KPI tracking (98.2% detection recall, 340ms latency, 0 unau
 
 ### 1. Clone & Setup Repository
 ```bash
-git clone https://github.com/Harshith-ka/Logistics-Multi-Agent.git
-cd Logistics-Multi-Agent
+git clone https://github.com/AlluGanesh/AGENTFORGE-AI.git
+cd AGENTFORGE-AI
 ```
 
 ### 2. Backend Setup
@@ -277,3 +290,10 @@ Logistics-Multi-Agent/
 ## 📜 License & Compliance
 
 This project is licensed under the **MIT License**. Built in compliance with autonomous logistics governance principles requiring **Human-in-the-Loop** verification for consequential operational dispatch actions.
+
+---
+
+## 👤 Author
+
+Developed by **Ganesh**.
+
